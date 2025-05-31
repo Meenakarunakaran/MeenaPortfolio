@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meena's Portfolio</title>
+  <link rel="stylesheet" href="style.css">ss
+</head>
+<body>
+
+  <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+  <header>
+    <h1>Hi, I'm Meena</h1>
+    <p>BSc Computer Science Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section>
+    <div class="card" id="about">
+      <h2>About Me</h2>
+      <p>I'm a passionate student from NPR Arts & Science College, Dindigul. I enjoy combining creativity with technology.</p>
+    </div>
+
+    <div class="card" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> C, C++, Java, Python</li>
+        <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Others:</strong> GitHub, Teamwork, Creativity</li>
+      </ul>
+    </div>
+
+    <div class="card" id="projects">
+      <h2>Projects</h2>
+      <p><strong>Keyword Policy Attribute-Based Encryption with Keyword Search</strong><br>
+      Designed a secure web application using ASP.NET and MySQL that implements attribute-based encryption for keyword searches in a virtual cloud. Ensured access control for authorized users.</p>
+
+      <p><strong>Portfolio Website (In Progress)</strong><br>
+      A mobile-friendly website to showcase my academic and technical profile.
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Hosted on GitHub Pages</li>
+          <li>Git for version control</li>
+        </ul>
+        <a href="https://meenakarunakaran.github.io/MeenaPortfolio" target="_blank">🌐 Visit Portfolio Website</a>
+
+      </p>
+    </div>
+
+    <div class="card" id="resume">
+      <h2>Resume</h2>
+      <p><a href="Resume.pdf"target="_blank">📄 Download My Resume</a>
+      </p>
+    </div>
+
+    <div class="card" id="contact">
+      <h2>Contact</h2>
+      <p>Email: meenakanna18403@gmail.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/meena-kannan-b65422360" target="_blank">Visit my linkedin</a>
+    </p>
+    </div>
+  </section>
+
+  <footer style="text-align:center; padding: 10px; background-color: #eee;">
+    © 2025 Meena | Portfolio
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+
+</body>
+</html>
